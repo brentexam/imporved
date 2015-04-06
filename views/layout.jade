@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/styles.css')
+  body
+    header
+        h1 Barrie Companies
+        br
+        a(href='/companys', title='List Listings' class='heada') Local Listings
+        a(href='/companys/add', title='Add Buisness' class='headb') Add Buisness    
+    block content
+    footer
+      p  2015 Brent DF Assignment 2 Adv Server Side

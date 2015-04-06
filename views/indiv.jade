@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    div(class='container')
+        div(class='collapse navbar-collapse')
+        h2 #{buisness.company}
+        table(class='table-bordered')
+            thead
+                th Category
+                th Phone Number
+            tbody
+                each
+                    tr
+                        td #{buisness.category}
+                        td #{buisness.number}

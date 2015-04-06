@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h1 Image Gallery
+	a(href='upload-image', title='New Upload') New Upload
+	each buisness, i in companys
+		div
+			img(title='#{buisness.title}', src='/images/#{buisness.fileName}', width='300')
+			p #{upload.title}
+			Upload Date #{buisness.uploadDate}

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    div(class='container')
+        div(class='collapse navbar-collapse')
+        h2 Add a Buisness
+        form(method='post', action='/companys/add')
+            div(class='col-lg-8 col-lg offset-2')
+                div(class='row control-group')
+                    label Company:
+                    input(name='company', required, placeholder='Company name')
+                div(class='row control-group')
+                    label Category:
+                    input(name='category', required, placeholder='Category')
+                div(class='row control-group')
+                    label Phone Number:
+                    input(name='number', required, placeholder='Phone Number')
+                input(type='submit', value='Add Buisness')

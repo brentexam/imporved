@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	h1 File Upload
+	form(method='post', enctype='multipart/form-data')
+		fieldset
+			label(for='title') Title
+			input(name='title')
+		fieldset
+			label(for='upload') Upload
+			input(type='file' name='upload')
+		input(type='submit', value='Submit')

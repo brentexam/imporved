@@ -1,0 +1,70 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header{
+	color: #126ABB;
+	font-size: 22px;
+	text-decoration: none;
+	padding-left: 100px;
+}
+
+.heada{
+	color: #18bc9c;
+}
+
+.headb{
+	padding-left: 50px;
+	color: #18bc9c
+}
+
+.company {
+	font-size:18px;
+  	color: #1000E3;
+}
+
+.delete{
+  	color: red;
+}
+
+label{
+	padding-right: 10px;
+}
+
+
+#splash {
+	width: 400px;
+	padding: 10px;
+	top: 50%;
+	left: 50%;
+	color:#FFFFFF;
+	background-color:#144DE7;
+	border-radius: 12px;
+}
+
+#splashP {
+	left: 50%;
+	width: 370px;
+	font-size: 20px;
+	word-spacing: 5px;
+}
+
+th{
+	padding: 5px;
+}
+
+td{
+	padding: 5px;
+}
+
+footer{
+	font-size:18px;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   color:white;
+   background:#297CEC;
+}
